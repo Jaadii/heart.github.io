@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart</title>
+    <link rel="stylesheet" href="test1.css">
+</head>
+<body> 
+    <section class="container">
+    <h1 class="text">Do you love me?😋❤️😜</h1>
+    <button class="btn btnPrimary">YAS</button>
+    <button class="btn btnSecondary moving">NO</button>   
+</section>  
+<script>
+    const btnAgree = document.querySelector(".btnPrimary")
+    const btnDisagree = document.querySelector(".btnSecondary")
+    const text = document.querySelector(".text");
+    btnAgree.addEventListener("click", () => {
+        text.innerText = "I LOVE YOU TOO SO MARRY ME PLEASE🤣❤️🫵!"
+    })
+    
+ </script> 
+ 
+</body>
+</html>

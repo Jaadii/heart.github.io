@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+.container{
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+}
+.text{
+    
+    color :rgb(6, 6, 6);
+
+}
+.btn{
+    
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btnPrimary{
+    background-color:rgb(71, 24, 240) ;
+    color: aliceblue;
+    padding: 0.8rem 1rem;
+}
+.btnPrimary:hover{
+    background-color: rgb(138, 200, 206);
+    box-shadow: 2px 2px 4px rgb(66, 66, 66) ;
+}
+ 
+.btnSecondary{
+    background-color: rgb(227, 12, 238);
+    color: aliceblue;
+    padding: 0.8rem 1rem;
+    margin: 15px;
+    transition: all 0.5s;
+}
+.moving:hover{
+    margin-left: 150px;
+}
